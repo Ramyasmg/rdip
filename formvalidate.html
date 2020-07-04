@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel = 'stylesheet' type = 'text/css' href = 'formvalidate.css' />
+    <h1>Form Validation</h1>
+</head>
+
+<body>
+
+<div class="textview">
+    <form id="myForm"  action="details2.html" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname" id="fname">
+         <br><br>
+        Phone No: <input type="number" name="no" id="no">
+        <br><br>
+        Email : <input type="email" name="mail" id="mail"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+    </div>
+
+
+<script src="assignment2.js" >
+
+    
+</script>
+<script>console.log(validateForm())</script>
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,86 @@
+.textview1
+{
+    width:330px;
+    margin:6px;
+    font-size: 30px;
+    padding: 10px;
+    border:1cm;
+    background-color:violet;
+    position: absolute;
+    top: 20%;
+    left:40%;
+}
+.textview2
+{
+    width:330px;
+    margin:6px;
+    font-size: 30px;
+    padding: 10px;
+    border:1cm;
+    background-color:khaki;
+    position: absolute;
+    top: 50%;
+    left:40%;
+}
+.textview3
+{
+    width:330px;
+    margin:6px;
+    font-size: 30px;
+    padding: 10px;
+    border:1cm;
+    background-color:khaki;
+    position: absolute;
+    top: 60%;
+    left:40%;
+}
+
+
+.sub1
+{
+width: 200px; 
+height: 60px; 
+font-size: 30px;
+padding: 10px;
+position: absolute;
+ top: 30%;
+ left: 45%;
+ background-color:blue;
+}
+.sub2
+{
+width: 200px; 
+height: 60px; 
+font-size: 30px;
+padding: 10px;
+position: absolute;
+ top: 70%;
+ left: 45%;
+ background-color:blue;
+}
+
+
+#result1
+{
+    width: 200px; 
+    height: 60px; 
+    font-size: 20px;
+   
+    position: absolute;
+     top: 40%;
+     left: 45%;
+     
+    } 
+    
+#result2
+{
+    width: 200px; 
+    height: 60px; 
+    font-size: 20px;
+   
+    position: absolute;
+     top: 80%;
+     left: 45%;
+     
+    }
+}

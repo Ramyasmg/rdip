@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel = 'stylesheet'  href = 'calci.css' />
+    <h4>Instructions</h4>
+</head> 
+
+<body>
+
+<ul>
+    <li>Choose the operator </li>
+    <li><b>"+"</b> for Addition</li>
+    <li><b>"-"</b> for Subtraction</li>
+    <li><b>"*"</b> for Division</li>
+    <li><b>"/"</b> for Division</li>
+    <li><b>"%"</b> for Percentage</li>
+    <li><b>"abs"</b> for Absolutevalue <li>
+    <li><b>"sqrt"</b> for Squareroot</li>
+</ul>
+
+
+<div class="main">
+
+    <p id="result" class="textview" style="height:70px; width: 310px;"></p>
+
+<table>
+      
+    
+    <tr>
+        <td>Enter 1st integer  <input type="number" class="textview" id="num1"></td>
+    </tr>
+    <tr>
+        <td>operator   <input type="text" class="textview" id="op"></td>
+    </tr>
+    <tr>
+        <td>Enter 2nd integer <input type="number" class="textview" id="num2"></td> 
+    </tr><br>
+    <tr>
+        <td><input type="button"  class="textview"  value="Submit" id="sub" onclick="fun()" ></td>
+    </tr>
+
+
+</table>
+
+</div>
+
+
+
+<script src="assignment2.js" ></script>
+<script>
+
+console.log(add(5,4));
+console.log(sub(5,4));
+console.log(mul(5,4));
+console.log(div(5,4));
+console.log(percentage(5,4));
+console.log(absolute(5));
+console.log(sqr(16));
+
+</script>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>

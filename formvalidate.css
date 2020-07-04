@@ -1,0 +1,21 @@
+
+h1
+{
+    text-align: center;
+    color:purple;
+}
+
+
+
+.textview
+{
+    width:330px;
+    margin:6px;
+    font-size: 30px;
+    padding: 10px;
+    border:1cm;
+
+    position: absolute;
+    top: 20%;
+    left:40%;
+}
